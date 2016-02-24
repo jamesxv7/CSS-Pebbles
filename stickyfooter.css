@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -80px;
+}
+
+.wrapper:after {
+  content: "";
+  display: block;
+  height: 80px;
+}
+
+.header {
+  background-color: #CCC;
+  height: 80px;
+  width: 100%;
+}
+
+.content p {
+  margin: 20px auto;
+  width:80%;
+}
+
+.footer {
+  background-color: #AAA;
+  height: 80px;
+  width: 100%;
+}
